@@ -56,7 +56,7 @@ class TestFlightScraper(unittest.TestCase):
                     self.assertIn(self.b_year+"-"+self.b_month+"-"+self.b_day, link_list[i])
                     """
         with self.subTest():
-            self.assertEqual(len(dates_list), 9)
+            self.assertEqual(len(dates_list), 25)
         """with self.subTest():
             
         with self.subTest():
